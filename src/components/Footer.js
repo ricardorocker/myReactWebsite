@@ -2,9 +2,10 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Rodapé</h1>
-    </div>
+    <footer className={styles.footer}>
+      <h3>Front-end Developer</h3>
+      <p>Ricardo Rocker &copy; 2022</p>
+    </footer>
   );
 };
 
